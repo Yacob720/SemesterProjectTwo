@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ImageButton4"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:text="Football"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:id="@+id/Football"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/Soccer"
+        android:layout_alignParentStart="true"
+        android:id="@+id/Tennis"
+        android:text="Tennis"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/Tennis"
+        android:layout_alignParentStart="true"
+        android:id="@+id/Volleyball"
+        android:text="Volleyball"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/Volleyball"
+        android:layout_alignParentStart="true"
+        android:id="@+id/Track"
+        android:text="Track"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:text="Soccer"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:id="@+id/Soccer"
+        android:layout_below="@+id/Football"
+        android:layout_alignParentStart="true"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:id="@+id/swimming"
+        android:text="Swimming"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentStart="true"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:id="@+id/golf"
+        android:text="Golf"
+        android:layout_below="@+id/swimming"
+        android:layout_alignParentStart="true"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:id="@+id/Wrestling"
+        android:text="Wrestling"
+        android:layout_below="@+id/golf"
+        android:layout_alignParentStart="true"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:text="soft_baseball"
+        android:textSize="10sp"
+        tools:ignore="InvalidId,SmallSp"
+        android:id="@+id/button6"
+        android:layout_below="@+id/Track"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
