@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageButton4"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:text="Band"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/Band"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/Band"
+        android:layout_alignParentStart="true"
+        android:id="@+id/Choir"
+        android:text="Choir"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:id="@+id/Speech"
+        android:text="Speech"
+        android:layout_below="@+id/Choir"
+        android:layout_alignParentStart="true"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:id="@+id/Clubs"
+        android:text="Clubs"
+        android:layout_below="@+id/Speech"
+        android:layout_alignParentStart="true"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:id="@+id/FBLA"
+        android:text="FBLA"
+        android:layout_below="@+id/Clubs"
+        android:layout_alignParentStart="true"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:id="@+id/Skills_Usa"
+        android:text="Skills USA"
+        android:layout_below="@+id/FBLA"
+        android:layout_alignParentStart="true"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:id="@+id/Student_co"
+        android:text="Student Co."
+        android:layout_below="@+id/Skills_Usa"
+        android:layout_alignParentStart="true"
+        android:textSize="10sp"
+        tools:ignore="HardcodedText,SmallSp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:id="@+id/Cheer"
+        android:text="Cheer"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:id="@+id/Dance"
+        android:text="Dance"
+        android:layout_below="@+id/Cheer"
+        android:layout_alignParentStart="true"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:id="@+id/Theater"
+        android:text="Theater"
+        android:layout_below="@+id/Dance"
+        android:layout_alignParentStart="true"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:id="@+id/HOSA"
+        android:text="Hosa"
+        android:layout_below="@+id/Theater"
+        android:layout_alignParentStart="true"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>

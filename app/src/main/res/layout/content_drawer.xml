@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jmcgowen.semesterprojecttwo.DrawerActivity"
+    tools:showIn="@layout/app_bar_drawer">
+<android.support.v7.widget.AppCompatTextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text= "hi"
+    tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/Scores"
+        android:textSize="12sp"
+        android:layout_alignTop="@+id/Map"
+        android:layout_centerHorizontal="true"
+        android:text="Scores"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/OtherActivities"
+        android:textSize="8sp"
+        android:text="Other Activities "
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/Sports"
+        tools:ignore="HardcodedText,SmallSp" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/Map"
+        android:textSize="12sp"
+        android:text="Map"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/Scores"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/Calender"
+        android:textSize="8sp"
+        android:text="Calender"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/Map"
+        tools:ignore="HardcodedText,SmallSp" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/Sports"
+        android:textSize="12sp"
+        android:text="Sports"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/Scores"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>
