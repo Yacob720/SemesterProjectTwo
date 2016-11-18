@@ -1,5 +1,7 @@
 package com.example.jmcgowen.semesterprojecttwo;
 
+import android.app.Fragment;
+import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -11,7 +13,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.ListView;
 
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -103,15 +107,15 @@ public class DrawerActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
+
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            //search
-        } else if (id == R.id.nav_gallery) {
-            //favorites
-        } else if (id == R.id.nav_slideshow) {
-            //weather
+        if (id == R.id.nav_search) {
+
+        } else if (id == R.id.nav_favorites) {
+
+        } else if (id == R.id.nav_weather) {
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -119,4 +123,24 @@ public class DrawerActivity extends AppCompatActivity
         return true;
     }
 
+   /* private class DrawerItemClickListener implements ListView.OnItemClickListener {
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            selectItem(position);
+        }
+    }
+
+   private void selectItem(int position) {
+        // update the main content by replacing fragments
+        Fragment fragment = new MenuFragment();
+        Bundle args = new Bundle();
+        args.putInt(MenuFragment.)
+
+        fragment.setArguments(args);
+
+        FragmentManager fragmentManager = getFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit()
+
+        mDrawerList.setItemChecked(position, true);
+        mDrawerLayout.closeDrawer(mDrawerList);*/
 }
