@@ -16,6 +16,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
+import java.util.Map;
 
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -44,8 +45,6 @@ public class DrawerActivity extends AppCompatActivity
                                       public void onClick(View v) {
                                           startActivity(new Intent(DrawerActivity.this, ActivityCalender.class));
                                       }
-
-
                                   }
         );
 
@@ -70,7 +69,18 @@ public class DrawerActivity extends AppCompatActivity
 
                                    }
         );
+        Button button3 = (Button) findViewById(R.id.Map);
+        button3.setOnClickListener(new View.OnClickListener() {
+                                       @Override
+                                       public void onClick(View v) {
+                                           startActivity(new Intent(DrawerActivity.this, MapsActivity.class));
+                                       }
+
+
+                                   }
+        );
     }
+
 
     @Override
     public void onBackPressed() {
