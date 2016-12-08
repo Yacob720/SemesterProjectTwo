@@ -44,3 +44,62 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.moveCamera(CameraUpdateFactory.newLatLng(nebraska));
     }
 }
+/*{
+        "results" : [
+        {
+        "address_components" : [
+        {
+        "long_name" : "68801",
+        "short_name" : "68801",
+        "types" : [ "postal_code" ]
+        },
+        {
+        "long_name" : "Grand Island",
+        "short_name" : "Grand Island",
+        "types" : [ "locality", "political" ]
+        },
+        {
+        "long_name" : "Nebraska",
+        "short_name" : "NE",
+        "types" : [ "administrative_area_level_1", "political" ]
+        },
+        {
+        "long_name" : "United States",
+        "short_name" : "US",
+        "types" : [ "country", "political" ]
+        }
+        ],
+        "formatted_address" : "Grand Island, NE 68801, USA",
+        "geometry" : {
+        "bounds" : {
+        "northeast" : {
+        "lat" : 41.07536500000001,
+        "lng" : -98.1750819
+        },
+        "southwest" : {
+        "lat" : 40.808755,
+        "lng" : -98.397876
+        }
+        },
+        "location" : {
+        "lat" : 40.96284740000001,
+        "lng" : -98.28694779999999
+        },
+        "location_type" : "APPROXIMATE",
+        "viewport" : {
+        "northeast" : {
+        "lat" : 41.07536500000001,
+        "lng" : -98.1750819
+        },
+        "southwest" : {
+        "lat" : 40.808755,
+        "lng" : -98.397876
+        }
+        }
+        },
+        "place_id" : "ChIJi8dmY4iImYcRU0CvNuKBxp0",
+        "types" : [ "postal_code" ]
+        }
+        ],
+        "status" : "OK"
+        }*/
